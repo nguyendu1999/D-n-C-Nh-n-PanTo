@@ -1,15 +1,57 @@
-.headerTow{
+.headerTow {
     font-size: 19px;
 }
-.iconDown{
+
+.iconDown {
     padding-top: 6px;
 }
-.nav1{
+
+.nav1 {
     font-size: 19px;
     cursor: pointer;
 }
-.headerMenu{
+
+.headerMenu {
     display: flex;
     list-style: none;
     gap: 30px;
+}
+
+@media only screen and (max-width:1020px) {
+    .headerTow {
+        font-size: 17px;
+    }
+    .nav1{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .headerTow {
+        font-size: 15px;
+    }
+    .nav1{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:611px) {
+    .headerTow {
+        font-size: 11px;
+    }
+    .nav1{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .headerTow {
+        font-size: 18px;
+    }
+    .nav1{
+        font-size: 18px;
+    }
+    .headerMenu{
+        display: inline;
+    }
 }

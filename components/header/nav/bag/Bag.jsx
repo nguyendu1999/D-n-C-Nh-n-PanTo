@@ -9,6 +9,6 @@ function Bag(props){
                 </div>
             </div>
     );
-}
+};
 
 export default Bag;

@@ -9,3 +9,11 @@
     padding: 50px 50px;
     color: var(--color-text);
 }
+
+@media only screen and (max-width:425px) {
+    .navHeader{
+        display: inline;
+        text-align: center;
+        padding: 20px;
+    }
+}
