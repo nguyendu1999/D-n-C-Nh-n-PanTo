@@ -15,5 +15,5 @@ a{
     --color-text: #FFFFFF ;
 }   
 body{
-    font-size: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }

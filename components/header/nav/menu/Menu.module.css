@@ -1,0 +1,15 @@
+.headerTow{
+    font-size: 19px;
+}
+.iconDown{
+    padding-top: 6px;
+}
+.nav1{
+    font-size: 19px;
+    cursor: pointer;
+}
+.headerMenu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
