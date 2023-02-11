@@ -1,0 +1,48 @@
+.navHeader{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    padding: 50px 50px;
+    color: var(--color-text);
+}
+.headerOne{
+    font-size: 25px;
+}
+.headerTow{
+    font-size: 19px;
+}
+.iconDown{
+    padding-top: 6px;
+}
+.nav1{
+    font-size: 19px;
+    cursor: pointer;
+}
+.headerMenu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.shopHeader{
+    font-size: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.numberShop{
+    position: absolute;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 50%  ;
+    padding: 3px;
+    background-color: red;
+    top: 1px;
+    left: 26px;
+    height: 30px;
+    width: 20px;
+}

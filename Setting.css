@@ -1,0 +1,19 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --color-darkText: #1E1E1E;
+    --color-background: #EFEFEF;
+    --color-footer : #F6973F;
+    --color-chairText: #0D1B39;
+    --color-text: #FFFFFF ;
+}   
+body{
+    font-size: sans-serif;
+}
