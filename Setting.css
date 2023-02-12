@@ -13,6 +13,7 @@ a{
     --color-footer : #F6973F;
     --color-chairText: #0D1B39;
     --color-text: #FFFFFF ;
+    --color-info:#E58411;
 }   
 body{
     font-family: 'Ubuntu', sans-serif;

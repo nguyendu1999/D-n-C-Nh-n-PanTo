@@ -5,6 +5,7 @@ function BodyNo1(props) {
         <div>
             <Space/>
             <TitelNo1/>
+            <Space/>
         </div>
     );
 }

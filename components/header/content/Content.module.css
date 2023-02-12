@@ -2,13 +2,13 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 30%;
+    top: 220px;
     left: 30%;
-    width: 600px;
+    width: 700px;
 }
 
 .titleContent {
-    font-size: 61px;
+    font-size: 60px;
     color: var(--color-text);
     text-align: center;
 }
@@ -20,13 +20,15 @@
     text-align: center;
     padding-left: 50px;
     padding-top: 50px;
+    font-weight: 100;
 }
 
-@media only screen and (max-width:1020px) {
+@media only screen and (max-width:1024px) {
     .bigContent {
         width: 500px;
         transition: 0.4s all linear;
         left: 25%;
+
     }
 
     .titleContent {
@@ -93,5 +95,6 @@
         padding-left: 20px;
         padding-top: 20px;
     }
-};
+}
 
+;
