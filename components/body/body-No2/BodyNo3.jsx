@@ -1,12 +1,12 @@
 import Space from "../body-No1/space/Space";
-import TitelNo2 from "./title-no2/TitelNo2";
-function BodyNo2() {
+import TitelNo3 from "./title-no3/TitelNo3";
+function BodyNo3() {
     return(
         <>
             <Space/>
-            <TitelNo2/>
+            <TitelNo3/>
             <Space/>
         </>
     )
 }
-export default BodyNo2;
+export default BodyNo3;

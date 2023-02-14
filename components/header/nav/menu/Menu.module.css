@@ -17,41 +17,28 @@
     gap: 30px;
 }
 
-@media only screen and (max-width:1020px) {
+@media only screen and (max-width:1024px) {
     .headerTow {
-        font-size: 17px;
+        font-size: 0.5rem;
     }
     .nav1{
-        font-size: 17px;
+        font-size: 1.1rem;
     }
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:768px) {
     .headerTow {
-        font-size: 15px;
+        font-size: 0.5rem;
     }
     .nav1{
-        font-size: 15px;
+        font-size: 0.8rem;
     }
 }
 
-@media only screen and (max-width:611px) {
-    .headerTow {
-        font-size: 11px;
-    }
-    .nav1{
-        font-size: 11px;
-    }
-}
-
-@media only screen and (max-width:425px) {
-    .headerTow {
-        font-size: 18px;
-    }
-    .nav1{
-        font-size: 18px;
-    }
+@media only screen and (max-width:426px) {
+    
     .headerMenu{
-        display: inline;
+        display: none;
     }
 }
+

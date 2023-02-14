@@ -1,16 +1,17 @@
 .bigSearch {
-    position: absolute;
-    top: 544px;
-    left: 600px;
-}
-
-.smallSearch {
-    display: flex;
     width: 100%;
 }
 
+.smallSearch {
+    position: absolute;
+    display: flex;
+    width: 30%;
+    top: 40rem;
+    left: 45rem;
+}
+
 .input {
-    width: 344px;
+    width: 19rem;
     height: 56px;
     background: rgba(255, 255, 255, 0.15);
     border: 0.861538px solid rgba(255, 255, 255, 0.6);
@@ -33,20 +34,121 @@
 
 @media only screen and (max-width:1024px) {
     .bigSearch {
-        top: 444px;
-        left: 300px;
-        width: 0;
+        transition: 0.5s all linear;
+    }
+    .smallSearch {
+        left: 20rem;
+        top: 25rem;
+    }
+    .input {
+        width: 17rem;
+        height: 3rem;
+        transform: translateX(2.7rem) translateY(-1rem);
+    }
 
+    .iconSearch {
+        font-size: 2.5rem;
+        transform: translateX(-0.1rem) translateY(-0.8rem);
     }
-    .smallSearch{
-    width: 0;
-    }
+
 }
 
 @media only screen and (max-width:768px) {
     .bigSearch {
-        top: 404px;
-        left: 200px;
+        transition: 0.5s all linear;
+    }
+    .smallSearch {
+        left: 12rem;
+        top: 25rem;
+    }
+    .input {
+        width: 17rem;
+        height: 3rem;
+        transform: translateX(2.7rem) translateY(-1rem);
+    }
+
+    .iconSearch {
+        font-size: 2.5rem;
+        transform: translateX(-0.1rem) translateY(-0.8rem);
+    }
+
+    .smallSearch {
+        width: 0;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    .bigSearch {
+        top: 25rem;
+        left: 14rem;
+        transition: 0.5s all linear;
+    }
+
+    .input {
+        width: 17rem;
+        height: 3rem;
+        transform: translateX(2.7rem) translateY(-1rem);
+    }
+    .smallSearch {
+        left: 4rem;
+        top: 20rem;
+    }
+    .iconSearch {
+        font-size: 2.5rem;
+        transform: translateX(-0.1rem) translateY(-0.8rem);
+    }
+
+    .smallSearch {
+        width: 0;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .bigSearch {
+        top: 15rem;
+        left: 5.5rem;
+        width: 0;
+        transition: 0.5s all linear;
+    }
+    .smallSearch {
+        left: 6rem;
+        top: 15rem;
+    }
+    .input {
+        width: 12rem;
+        height: 2rem;
+        transform: translateX(2.7rem) translateY(-1rem);
+    }
+
+    .iconSearch {
+        font-size: 2.1rem;
+        transform: translateX(0.2rem) translateY(-0.8rem);
+    }
+    .smallSearch {
+        width: 0;
+    }
+}
+
+@media only screen and (max-width:376px) {
+    .bigSearch {
+        top: 15rem;
+        left: 4rem;
+        width: 0;
+        transition: 0.5s all linear;
+    }
+
+    .input {
+        width: 12rem;
+        height: 1.5rem;
+        transform: translateX(2.7rem) translateY(-1rem);
+    }
+
+    .iconSearch {
+        font-size: 2.1rem;
+        transform: translateX(0.2rem) translateY(-0.8rem);
+    }
+
+    .smallSearch {
         width: 0;
     }
 }

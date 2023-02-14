@@ -1,7 +1,7 @@
-import style from '../title-no2/TitelNo2.module.css';
+import style from '../title-no3/TitelNo3.module.css';
 import imgChair from '../../../assets/image/Rectangle 1446.png';
 import { CgArrowLongLeft } from 'react-icons/cg';
-function TitelNo2() {
+function TitelNo3() {
     return (
         <>
             <div className={style.bigTitelNo2}>
@@ -25,4 +25,4 @@ function TitelNo2() {
     )
 }
 
-export default TitelNo2;
+export default TitelNo3;

@@ -2,99 +2,99 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 220px;
-    left: 30%;
-    width: 700px;
+    top: 18rem;
+    width: 100%;
 }
 
 .titleContent {
-    font-size: 60px;
+    width: 50%;
+    transform: translateX(28rem);
+    font-size: 3.5rem;
     color: var(--color-text);
     text-align: center;
 }
 
 .textContent {
     color: var(--color-text);
-    font-size: 24px;
-    width: 90%;
+    font-size: 1.5rem;
+    width: 30%;
     text-align: center;
-    padding-left: 50px;
-    padding-top: 50px;
+    transform: translateX(39rem) translateY(5rem);
     font-weight: 100;
 }
 
 @media only screen and (max-width:1024px) {
     .bigContent {
-        width: 500px;
+        width: 100%;
         transition: 0.4s all linear;
-        left: 25%;
-
+        top: 10rem;
     }
 
     .titleContent {
-        font-size: 40px;
-
+        font-size: 2.1rem;
+        transform: translateX(18rem) translateY(1rem);
     }
 
     .textContent {
-        font-size: 20px;
-        padding-left: 40px;
-        padding-top: 40px;
+        font-size: 1.2rem;
+        width: 40%;
+        transform: translateX(21rem) translateY(3rem);
+
     }
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:768px) {
     .bigContent {
-        width: 500px;
+        width: 100%;
         transition: 0.4s all linear;
-        left: 20%;
+        top: 10rem;
     }
 
     .titleContent {
-        font-size: 35px;
+        font-size: 2rem;
+        transform: translateX(12rem) translateY(1rem);
     }
 
     .textContent {
-        font-size: 19px;
-        padding-left: 40px;
-        padding-top: 40px;
+        font-size: 1rem;
+        width: 40%;
+        transform: translateX(15rem) translateY(3rem);
     }
 }
 
-@media only screen and (max-width:611px) {
+@media only screen and (max-width:510px) {
     .bigContent {
-        width: 350px;
+        width: 100%;
         transition: 0.4s all linear;
-        left: 20%;
+        top: 10rem;
     }
 
     .titleContent {
-        font-size: 30px;
+        font-size: 1.5rem;
+        transform: translateX(8rem) translateY(-1rem);
     }
 
     .textContent {
-        font-size: 18px;
-        padding-left: 20px;
-        padding-top: 20px;
+        font-size: 0.7rem;
+        transform: translateX(10rem) translateY(1rem);
     }
 }
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:426px) {
     .bigContent {
-        width: 180px;
+        width: 100%;
         transition: 0.4s all linear;
-        left: 20%;
+        top: 10rem;
     }
 
     .titleContent {
-        font-size: 28px;
+        font-size: 1.1rem;
+        transform: translateX(8rem) translateY(-3rem);
     }
 
     .textContent {
-        font-size: 18px;
-        padding-left: 20px;
-        padding-top: 20px;
+        font-size: 0.7rem;
+        transform: translateX(9rem) translateY(-2rem);
     }
 }
 
-;

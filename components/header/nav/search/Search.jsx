@@ -6,7 +6,6 @@ function Search() {
             <div className={style.smallSearch}>
                 <div>
                     <input className={style.input} type="text" name="" id="search" placeholder="Search furniture" />
-
                 </div>
                 <div>
                     <GrSearch className={style.iconSearch} />
