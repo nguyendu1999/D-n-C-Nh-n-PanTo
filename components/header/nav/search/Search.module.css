@@ -1,13 +1,14 @@
 .bigSearch {
     width: 100%;
+    position: relative;
 }
 
 .smallSearch {
     position: absolute;
     display: flex;
     width: 30%;
-    top: 40rem;
-    left: 45rem;
+    left: 42%;
+    transform: translateY(-25rem);
 }
 
 .input {
@@ -21,7 +22,6 @@
 }
 
 .iconSearch {
-    position: absolute;
     cursor: pointer;
     transform: translateX(-52px) translateY(5px);
     font-size: 45px;
@@ -31,14 +31,23 @@
     background: var(--color-info);
     color: var(--color-text);
 }
-
+@media only screen and (max-width:1235px) {
+    .smallSearch {
+        width: 30%;
+        left: 37%;
+        top: 210px;
+        transform: translateY(-25rem);
+    }
+}
 @media only screen and (max-width:1024px) {
     .bigSearch {
         transition: 0.5s all linear;
     }
     .smallSearch {
-        left: 20rem;
-        top: 25rem;
+        width: 30%;
+        left: 32%;
+        top: 250px;
+        transform: translateY(-25rem);
     }
     .input {
         width: 17rem;
@@ -58,8 +67,10 @@
         transition: 0.5s all linear;
     }
     .smallSearch {
-        left: 12rem;
-        top: 25rem;
+        width: 30%;
+        left: 25%;
+        top: 200px;
+        transform: translateY(-25rem);
     }
     .input {
         width: 17rem;
@@ -78,20 +89,16 @@
 }
 
 @media only screen and (max-width:510px) {
-    .bigSearch {
-        top: 25rem;
-        left: 14rem;
-        transition: 0.5s all linear;
-    }
 
+    .smallSearch {
+        width: 30%;
+        left: 15%;
+        top: 250px;
+    }
     .input {
         width: 17rem;
         height: 3rem;
         transform: translateX(2.7rem) translateY(-1rem);
-    }
-    .smallSearch {
-        left: 4rem;
-        top: 20rem;
     }
     .iconSearch {
         font-size: 2.5rem;
@@ -108,11 +115,11 @@
         top: 15rem;
         left: 5.5rem;
         width: 0;
-        transition: 0.5s all linear;
     }
     .smallSearch {
-        left: 6rem;
-        top: 15rem;
+        width: 30%;
+        left: 8%;
+        top: -105px;
     }
     .input {
         width: 12rem;
@@ -129,26 +136,3 @@
     }
 }
 
-@media only screen and (max-width:376px) {
-    .bigSearch {
-        top: 15rem;
-        left: 4rem;
-        width: 0;
-        transition: 0.5s all linear;
-    }
-
-    .input {
-        width: 12rem;
-        height: 1.5rem;
-        transform: translateX(2.7rem) translateY(-1rem);
-    }
-
-    .iconSearch {
-        font-size: 2.1rem;
-        transform: translateX(0.2rem) translateY(-0.8rem);
-    }
-
-    .smallSearch {
-        width: 0;
-    }
-}

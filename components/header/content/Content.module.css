@@ -1,100 +1,89 @@
-.bigContent {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 18rem;
-    width: 100%;
+.bigContent{
+    position: relative;
+    background-image: url(../../assets/image/Rectangle\ 1441.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
 }
 
 .titleContent {
-    width: 50%;
-    transform: translateX(28rem);
-    font-size: 3.5rem;
-    color: var(--color-text);
+    width: 100%;
+    position: absolute;
+    top: 17rem;
     text-align: center;
+    color: var(--color-text);
 }
 
-.textContent {
-    color: var(--color-text);
-    font-size: 1.5rem;
-    width: 30%;
-    text-align: center;
-    transform: translateX(39rem) translateY(5rem);
+.titleContent h1{
+    font-size: 2.5rem;
+    margin: 0 35%;
+    margin-bottom: 30px;
+}
+
+.titleContent p{
+    font-size: 18px;
+    margin: 0 40%;
     font-weight: 100;
+
+}
+
+@media only screen and (max-width:1235px) {
+    .titleContent {
+        top: 11rem;
+    }
+    .titleContent h1{
+        font-size: 2rem;
+        margin: 0 30%;
+        margin-bottom: 30px;
+    }
+    .titleContent p{
+        font-size: 18px;
+        margin: 0 35%;
+    }
 }
 
 @media only screen and (max-width:1024px) {
-    .bigContent {
-        width: 100%;
-        transition: 0.4s all linear;
-        top: 10rem;
-    }
-
     .titleContent {
-        font-size: 2.1rem;
-        transform: translateX(18rem) translateY(1rem);
+        top: 13rem;
     }
-
-    .textContent {
-        font-size: 1.2rem;
-        width: 40%;
-        transform: translateX(21rem) translateY(3rem);
-
+    .titleContent h1{
+        font-size: 2rem;
+        margin: 0 25%;
+        margin-bottom: 30px;
+    }
+    .titleContent p{
+        font-size: 18px;
+        margin: 0 30%;
     }
 }
 
 @media only screen and (max-width:768px) {
-    .bigContent {
-        width: 100%;
-        transition: 0.4s all linear;
+    .titleContent {
         top: 10rem;
     }
-
-    .titleContent {
-        font-size: 2rem;
-        transform: translateX(12rem) translateY(1rem);
+    .titleContent h1{
+        font-size: 1.8rem;
+        margin: 0 25%;
+        margin-bottom: 30px;
     }
-
-    .textContent {
-        font-size: 1rem;
-        width: 40%;
-        transform: translateX(15rem) translateY(3rem);
-    }
-}
-
-@media only screen and (max-width:510px) {
-    .bigContent {
-        width: 100%;
-        transition: 0.4s all linear;
-        top: 10rem;
-    }
-
-    .titleContent {
-        font-size: 1.5rem;
-        transform: translateX(8rem) translateY(-1rem);
-    }
-
-    .textContent {
-        font-size: 0.7rem;
-        transform: translateX(10rem) translateY(1rem);
+    .titleContent p{
+        font-size: 17px;
+        margin: 0 30%;
     }
 }
 
 @media only screen and (max-width:426px) {
-    .bigContent {
-        width: 100%;
-        transition: 0.4s all linear;
+    .titleContent {
         top: 10rem;
     }
-
-    .titleContent {
-        font-size: 1.1rem;
-        transform: translateX(8rem) translateY(-3rem);
+    .titleContent h1{
+        font-size: 1.8rem;
+        margin: 0 5%;
+        margin-bottom: 30px;
     }
-
-    .textContent {
-        font-size: 0.7rem;
-        transform: translateX(9rem) translateY(-2rem);
+    .titleContent p{
+        display: none;
     }
 }
-

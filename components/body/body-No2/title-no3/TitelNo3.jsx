@@ -1,5 +1,5 @@
 import style from '../title-no3/TitelNo3.module.css';
-import imgChair from '../../../assets/image/Rectangle 1446.png';
+import imgChair from '../../../assets/image/Rectangle 144677777.png';
 import { CgArrowLongLeft } from 'react-icons/cg';
 function TitelNo3() {
     return (
@@ -9,7 +9,6 @@ function TitelNo3() {
                     <img src={imgChair} alt="" className={style.img} />
                     <div className={style.shadow1}></div>
                     <div className={style.shadow2}></div>
-                    <div className={style.shadow3}></div>
                 </div>
                 <div className={style.smallTitelNo2}>
                     <h4 className={style.no1}>EXPERIENCES</h4>
@@ -20,7 +19,7 @@ function TitelNo3() {
                         <span><CgArrowLongLeft className={style.arroow} /></span>
                     </div>
                 </div>
-            </div>
+            </div>  
         </>
     )
 }

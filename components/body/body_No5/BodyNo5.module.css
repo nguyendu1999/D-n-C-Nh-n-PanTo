@@ -1,0 +1,190 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headOne{
+    font-size: 2.5rem;
+}
+.headTow{
+    margin-top: 2rem;
+    background-color:  #cecccc;
+    border-radius: 50px;
+}
+.headTow ul{
+    display: flex;
+    list-style: none;
+}
+.headTow li{
+    margin: 20px;
+}
+.headTow a:focus {
+    background-color: var(--color-text);
+    position: relative;
+    border-radius: 50px;
+    padding: 15px;
+}
+.headTow a {
+    padding: 0 5px;
+    font-size: 1.5rem;
+    color: var(--color-darkText);
+}
+
+
+.bigSlide{
+    background: var(--color-background);
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 100%;
+}
+
+.allSlide{
+    background: var(--color-text);
+    overflow: hidden;
+    border-radius: 80px;
+    height: 600px;
+    border: 50px solid var(--color-background);
+}
+.imgBig{
+    line-height: 40px;
+    padding-left: 40px;
+}
+.imgBig img{
+    width: 50%;
+    object-fit: cover;
+}
+.imgBig h2{
+    font-size: 1.8rem;
+}
+.start{
+    color: var(--color-footer);
+    font-size: 2rem;
+}
+
+.priceAndIcon{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.priceAndIcon h3{
+    font-size: 1.5rem;
+    padding-left: 40px;
+
+}
+.plus{
+    font-size: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1024px) {
+    .headOne{
+        font-size: 2rem;
+    }
+    .headTow a {
+        padding: 0 5px;
+        font-size: 1.2rem;
+    }
+    .headTow li{
+        margin: 9px;
+    }
+    .headTow a:focus {
+        padding: 5px;
+    }
+    .imgBig h2{
+        font-size: 1.5rem;
+    }
+    .start{
+        color: var(--color-footer);
+        font-size: 1.8rem;
+    }
+    .priceAndIcon h3{
+        font-size: 1.3rem;
+        padding-left: 40px;
+    
+    }
+    .plus{
+        font-size: 2.8rem;
+        
+    }
+    .allSlide{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .headOne{
+        font-size: 1.5rem;
+    }
+    .headTow a {
+        padding: 0 10px;
+        font-size: 1.2rem;
+    }
+    .headTow li{
+        margin: 9px;
+    }
+    .headTow a:focus {
+        padding: 7px;
+    }
+    .imgBig{
+        padding-left: 20px;
+    }
+    .imgBig h2{
+        font-size: 1.3rem;
+    }
+    .start{
+        color: var(--color-footer);
+        font-size: 1.5rem;
+    }
+    .priceAndIcon h3{
+        font-size: 1.2rem;
+        padding-left: 20px;
+    }
+    .plus{
+        font-size: 2.5rem;
+        
+    }
+    .allSlide{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .headOne{
+        font-size: 1.1rem;
+    }
+    .headTow a {
+        padding: 0 10px;
+        font-size: 1.1rem;
+    }
+    .headTow li{
+        margin: 8px;
+    }
+    .headTow a:focus {
+        padding: 7px;
+    }
+    .imgBig{
+        padding-left: 20px;
+    }
+    .imgBig h2{
+        font-size: 1.3rem;
+    }
+    .start{
+        color: var(--color-footer);
+        font-size: 1.5rem;
+    }
+    .priceAndIcon h3{
+        font-size: 1.2rem;
+        padding-left: 20px;
+    }
+    .plus{
+        font-size: 2.5rem;
+        
+    }
+    .allSlide{
+        height: 500px;
+    }
+}

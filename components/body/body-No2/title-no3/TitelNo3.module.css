@@ -1,21 +1,25 @@
 .bigTitelNo2 {
     display: grid;
-    grid-template-columns: auto 40rem;
+    grid-template-columns: 50% auto;
+    gap: 30px;
 }
 
 .bigImg {
-    width: 10rem;
+    width: 100%;
 }
-.img{
-    width: 630px;
+
+.bigImg img {
+    width: 700px;
+    height: 100%;
+    box-shadow: 0px 20px 20px 0px #888888;
 }
 
 .shadow1 {
     position: absolute;
     background: #F7F7F7;
-    width: 45rem;
-    height: 20rem;
-    transform: translateY(-25rem);
+    width: 52rem;
+    height: 25rem;
+    transform: translateY(-28rem);
     border-radius: 20px;
     z-index: -1;
 }
@@ -24,26 +28,16 @@
     position: absolute;
     background: #F7F7F7;
     width: 30rem;
-    height: 20rem;
-    transform: translateY(-35rem);
+    height: 40rem;
+    transform: translateY(-40rem);
     border-radius: 0px 20px 20px 20px;
     z-index: -1;
 }
 
-.shadow3 {
-    position: absolute;
-    background: black;
-    width: 35rem;
-    height: 14rem;
-    transform: translateX(0) translateY(-240px);
-    border-radius: 0 20px 20px 0px;
-    box-shadow: 20px 20px 20px 20px #888888;
-    z-index: -1111;
-}
 
 .smallTitelNo2 {
-    max-width: 20rem;
-    line-height: 40px;
+    width: 100%;
+    line-height: 60px;
 }
 
 .no1 {
@@ -52,9 +46,16 @@
 
 }
 
+.no2 {
+    font-size: 3rem;
+    width: 60%;
+}
+
 .no3 {
-    width: 38rem;
-    font-size: 20px;
+    font-size: 1.5rem;
+    line-height: 40px;
+    padding-top: 30px;
+    width: 70%;
 }
 
 .info {
@@ -71,3 +72,186 @@
     margin-left: 20px;
 }
 
+@media only screen and (max-width:1235px) {
+    .bigImg img {
+        width: 500px;
+        height: 80%;
+    }
+
+    .shadow1 {
+        width: 35rem;
+        height: 20rem;
+        transform: translateY(-22rem);
+    }
+    .shadow2 {
+        width: 25rem;
+        height: 30rem;
+        transform: translateY(-32rem);
+    }
+
+    .no1 {
+        color: var(--color-info);
+        font-size: 1.5rem;
+    }
+    .no2{
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .no3 {
+        width: 28rem;
+        font-size: px;
+    }
+
+    .info {
+        display: flex;
+        width: 140px;
+        color: var(--color-footer);
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .arroow {
+        font-size: 30px;
+        transform: rotate(180deg);
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .bigImg img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .shadow1 {
+        width: 31rem;
+        height: 20rem;
+        transform: translateY(-22rem);
+    }
+    .shadow2 {
+        width: 25rem;
+        height: 10rem;
+        transform: translateY(-25rem);
+    }
+
+    .no1 {
+        color: var(--color-info);
+        font-size: 17px;
+    }
+    .no2 {
+        font-size: 2rem;
+        width: 80%;
+    }
+    .no3 {
+        width: 28rem;
+        font-size: 16px;
+    }
+
+    .info {
+        display: flex;
+        width: 140px;
+        color: var(--color-footer);
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .arroow {
+        font-size: 30px;
+        transform: rotate(180deg);
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .bigImg img {
+        width: 100%;
+        height: 70%;
+        
+    }
+
+    .shadow1 {
+        display: none;
+    }
+    .shadow2 {
+        display: none;
+    }
+
+    .no1 {
+        color: var(--color-info);
+        font-size: 15px;
+    }
+    .no2 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .no3 {
+        width: 20rem;
+        font-size: 12px;
+    }
+
+    .info {
+        display: flex;
+        width: 140px;
+        color: var(--color-footer);
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .arroow {
+        font-size: 30px;
+        transform: rotate(180deg);
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .bigTitelNo2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .bigImg img {
+        width: 320px;
+        height: 50%;
+        border-radius: 10px;
+
+    }
+
+    .shadow1 {
+        display: none;
+
+    }
+    .shadow2 {
+       display: none;
+    }
+
+    .no1 {
+        color: var(--color-info);
+        font-size: 15px;
+    }
+    .no2 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .no3 {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .info {
+        display: flex;
+        width: 100%;
+        color: var(--color-footer);
+        padding-top: 20px;
+        font-size: 18px;
+        justify-content: center;
+    }
+
+    .arroow {
+        font-size: 30px;
+        transform: rotate(180deg);
+        margin-left: 20px;
+    }
+}

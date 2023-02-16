@@ -1,73 +1,107 @@
 .titelNo1 {
-    display: flex;
-    width: 100%;
-    height: 100%;
+    display: grid;
+    grid-template-columns:20% auto;
+    padding-left: 50px;
 }
 
 .bigTitle {
-    width: 100%;
+    width: 80%;
     font-size: 3rem;
-    padding-left: 20%;
+    transform: translateY(50px);
 }
 
 .bigText {
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 2rem;
+    column-gap: 1rem;
+    justify-content: space-around;
 }
 
 .tilteText {
-    width: 200px;
-    font-size: 24px;
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 500;
 }
 
 .text {
     color: var(-color-darkText);
     padding: 20px 0;
-    width: 320px;
+    width: 80%;
     letter-spacing: 1px;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1.2rem;
+    line-height: 50px;
 }
 
 .endTiltel {
     display: flex;
-    width: 140px;
+    width: 100%;
+    font-size: 1.5rem;
     color: var(--color-footer);
 }
 
 .arroow {
-    font-size: 30px;
+    font-size: 4rem;
     transform: rotate(180deg);
     margin-left: 20px;
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:1235px) {
 
     .bigTitle {
-        font-size: 2rem;
-        padding-left: 60px;
-        max-width: 250px;
+        font-size: 1.9rem;
+        padding-left: 20px;
+        width: 90%;
     }
     .bigText{
-        padding-left: 40px;
+        
     }
     .tilteText {
-        font-size: 20px;
+        font-size:1.5rem;
     }
 
     .text {
-        width: 220px;
+        width: 100%;
         font-size: 15px;
+        line-height: 40px;
+    }
+    .endTiltel {
+        font-size: 1.2rem;
+    }
+    
+    .arroow {
+        font-size: 2rem;
     }
 }
+@media only screen and (max-width:1024px) {
+
+    .bigTitle {
+        font-size: 1.7rem;
+        padding-left: 5px;
+        width: 90%;
+    }
+    .tilteText {
+        font-size:1.3rem;
+    }
+
+    .text {
+        font-size: 13px;
+        line-height: 35px;
+    }
+    .endTiltel {
+        font-size: 1rem;
+    }
+    
+    .arroow {
+        font-size: 1.8rem;
+    }
+}
+
 
 @media only screen and (max-width:768px) {
 
     .bigTitle {
         font-size: 1.7rem;
-        padding-left: 2.5rem;
-        max-width: 220px;
+        width: 100%;
     }
     .bigText{
         padding-left: 2rem;
@@ -81,17 +115,45 @@
     }
 
     .text {
-        width: 220px;
+        width: 100%;
         font-size: 15px;
     }
 }
+@media only screen and (max-width:677px) {
+    .titelNo1{
+        padding: 0;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 20%;
+    }
+    .bigTitle {
+        font-size: 1.7rem;
+        width: 90%;
+        text-align: center;
+    }
+    .tilteText {
+        font-size:1.3rem;
+    }
 
+    .text {
+        font-size: 13px;
+        line-height: 35px;
+    }
+    .endTiltel {
+        font-size: 1rem;
+    }
+    
+    .arroow {
+        font-size: 1.8rem;
+    }
+}
 @media only screen and (max-width:426px) {
 
     .bigTitle {
         font-size: 2rem;
         padding-left: 1rem;
-        max-width: 220px;
+        max-width: 100%;
+        text-align: center;
     }
     .bigText{
         padding-left: 1rem;
@@ -105,36 +167,8 @@
     }
 
     .text {
-        width: 220px;
+        width: 100%;
         font-size: 15px;
     }
 }
 
-@media only screen and (max-width:376px) {
-    .titelNo1{
-        display: block;
-    }
-    .bigTitle {
-        font-size: 2rem;
-        padding-bottom: 3rem;
-        max-width: 320px;
-        transform: translateX(50px);
-    }
-    .bigText{
-        padding-left: 1rem;
-        display: grid;
-        grid-template-columns: auto ;
-        grid-row: 100px 100px;
-        row-gap: 50px;
-        transform: translateX(100px);
-        
-    }
-    .tilteText {
-        font-size: 20px;
-    }
-
-    .text {
-        width: 220px;
-        font-size: 15px;
-    }
-}
