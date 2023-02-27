@@ -7,8 +7,8 @@
     position: absolute;
     display: flex;
     width: 30%;
-    left: 42%;
-    transform: translateY(-25rem);
+    left: 43%;
+    transform: translateY(-10rem);
 }
 
 .input {
@@ -31,12 +31,12 @@
     background: var(--color-info);
     color: var(--color-text);
 }
-@media only screen and (max-width:1235px) {
+@media only screen and (max-width:1487px) {
     .smallSearch {
         width: 30%;
-        left: 37%;
+        left: 42%;
         top: 210px;
-        transform: translateY(-25rem);
+        transform: translateY(-22rem);
     }
 }
 @media only screen and (max-width:1024px) {

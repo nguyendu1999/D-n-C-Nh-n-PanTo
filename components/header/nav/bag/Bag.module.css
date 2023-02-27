@@ -3,6 +3,7 @@
     position: relative;
     cursor: pointer;
     width: 100%;
+    z-index: 0;
 }
 
 .numberShop {
@@ -16,6 +17,29 @@
     transform: translateX(26px) translateY(-46px);
     height: 30px;
     width: 20px;
+}
+.pushShop{
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 20px;
+    color: black;
+    display: none;
+} 
+:hover.shopHeader .pushShop{
+    display: block;
+}
+.pushShop ul{
+    position: relative;
+    left: 10px;
+    list-style: none;
+}
+.pushShop li{
+    width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width:1024px) {

@@ -4,8 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     z-index: -1;
+    height: 700px;
 }
 
 .titleContent {
@@ -17,7 +17,7 @@
 }
 
 .titleContent h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 0 35%;
     margin-bottom: 30px;
 }
@@ -29,12 +29,30 @@
 
 }
 
+@media only screen and (max-width:1486px) {
+    .titleContent {
+        top: 15rem;
+        left: 22px;
+    }
+    .titleContent h1{
+        font-size: 2.5rem;
+        margin: 0 30%;
+        margin-bottom: 30px;
+    }
+    .titleContent p{
+        font-size: 22px;
+        padding-top: 30px;
+        margin: 0 35%;
+    }
+}
 @media only screen and (max-width:1235px) {
     .titleContent {
         top: 11rem;
+        left: 22px;
+
     }
     .titleContent h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 0 30%;
         margin-bottom: 30px;
     }

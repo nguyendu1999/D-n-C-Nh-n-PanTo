@@ -8,30 +8,17 @@
     font-size: 2.5rem;
 }
 .headTow{
-    margin-top: 2rem;
-    background-color:  #cecccc;
-    border-radius: 50px;
-}
-.headTow ul{
-    display: flex;
-    list-style: none;
-}
-.headTow li{
-    margin: 20px;
-}
-.headTow a:focus {
-    background-color: var(--color-text);
-    position: relative;
-    border-radius: 50px;
-    padding: 15px;
-}
-.headTow a {
-    padding: 0 5px;
-    font-size: 1.5rem;
-    color: var(--color-darkText);
+    font-size: 2rem;
+    padding-top: 30px;
 }
 
-
+.bigradio {
+    width: 100%;
+    background: #bcb2b2;
+    height: 5rem;
+    padding: 0 20px;
+    border-radius: 40px;
+}
 .bigSlide{
     background: var(--color-background);
     padding-left: 4rem;
@@ -49,10 +36,16 @@
 .imgBig{
     line-height: 40px;
     padding-left: 40px;
+    width: 80%;
+}
+.sizeImg{
+    width: 100%;
+    height: 15rem;
+    padding-left: 3rem;
 }
 .imgBig img{
-    width: 50%;
-    object-fit: cover;
+    width: 15rem;
+    height: 15rem;
 }
 .imgBig h2{
     font-size: 1.8rem;
@@ -79,6 +72,44 @@
     border-radius: 50%;
     cursor: pointer;
 }
+@media only screen and (max-width:1486px) {
+    .headOne{
+        font-size: 2rem;
+    }
+    .headTow a {
+        padding: 0 5px;
+        font-size: 1.2rem;
+    }
+    .headTow li{
+        margin: 9px;
+    }
+    .headTow a:focus {
+        padding: 5px;
+    }
+    .imgBig img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .imgBig h2{
+        font-size: 1.5rem;
+    }
+    .start{
+        color: var(--color-footer);
+        font-size: 1.8rem;
+    }
+    .priceAndIcon h3{
+        font-size: 1.3rem;
+        padding-left: 40px;
+    
+    }
+    .plus{
+        font-size: 2.8rem;
+        
+    }
+    .allSlide{
+        height: 500px;
+    }
+}
 
 @media only screen and (max-width:1024px) {
     .headOne{
@@ -93,6 +124,10 @@
     }
     .headTow a:focus {
         padding: 5px;
+    }
+    .imgBig img{
+        width: 10rem;
+        height: 10rem;
     }
     .imgBig h2{
         font-size: 1.5rem;

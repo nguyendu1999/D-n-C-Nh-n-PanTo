@@ -1,54 +1,35 @@
-import img1 from './components/assets/image/123.png';
-import img2 from './components/assets/image/345.png';
-import img3 from './components/assets/image/1456.png';
-import img4 from './components/assets/image/12345.png';
+import img1 from './components/assets/image/avatart/unsplash__HqHX3LBN18.png';
+import img2 from './components/assets/image/avatart/unsplash_h2_3dL9yLpU.png';
+import img3 from './components/assets/image/avatart/unsplash_JaXs8Tk5Iww.png';
+import avata1 from './components/assets/image/avatart/Ellipse 1131.png';
+import avata2 from './components/assets/image/avatart/Ellipse 113123.png';
+import avata3 from './components/assets/image/avatart/Ellipse 113155555.png';
+
 
 export const dataList = [
     {
         id:1,
-        titel:"Sakarias Armchair",
-        price:'392$',
-        category:'Chair',
+        avatar:avata1,
+        titel:"Bang Upin",
+        category:'ChairPedagang Asongan',
+        text:'“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“',
         img:img1,
-        
     },
     {
         id:1,
-        titel:"Baltsar Chair",
-        price:'299$',
-        category:'Chair',
-        img:img2
+        avatar:avata2,
+        titel:"Ibuk Sukijan",
+        category:'Ibu Rumah Tangga',
+        text:'“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“',
+        img:img2,
     },
     {
         id:1,
-        titel:"Anjay Chair",
-        price:'519$',
-        category:'Chair',
-        img:img3
+        avatar:avata3,
+        titel:"Mpok Ina",
+        category:'Karyawan Swasta',
+        text:'“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“',
+        img:img3,
     },
-    {
-        id:1,
-        titel:"Nyantuy Chair",
-        price:'921$',
-        category:'Chair',
-        img:img4
-    },{
-        id:1,
-        titel:"Nyantuy Chair",
-        price:'921$',
-        category:'Chair',
-        img:img4
-    },{
-        id:1,
-        titel:"Nyantuy Chair",
-        price:'921$',
-        category:'Chair',
-        img:img4
-    },{
-        id:1,
-        titel:"Nyantuy Chair",
-        price:'921$',
-        category:'Chair',
-        img:img4
-    }
 ];
+
